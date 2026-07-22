@@ -38,6 +38,12 @@ Once a toolchain exists, this section should document:
 Keep this section up to date as soon as a build exists — an empty section
 here is a signal the project is still pre-scaffold.
 
+## Reference material
+
+- `docs/HARDWARE.md` — CGB hardware spec summary (CPU, memory map, PPU,
+  APU, cartridge header). Use it for quick lookups; defer to Pan Docs
+  (https://gbdev.io/pandocs/) for exact register bit layouts.
+
 ## Conventions
 
 - Target hardware is Game Boy Color specifically (not DMG-only, not GBA).
